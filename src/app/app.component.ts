@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-7-material-registration-login-example';
+  title = 'angular-9-material-registration-login-example';
 }

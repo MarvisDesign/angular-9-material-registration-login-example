@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-7-material-registration-login-example": {
+    "angular-9-material-registration-login-example": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "aot": true,
-            "outputPath": "dist/angular-7-material-registration-login-example",
+            "outputPath": "dist/angular-9-material-registration-login-example",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,18 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-7-material-registration-login-example:build"
+            "browserTarget": "angular-9-material-registration-login-example:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-7-material-registration-login-example:build:production"
+              "browserTarget": "angular-9-material-registration-login-example:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-7-material-registration-login-example:build"
+            "browserTarget": "angular-9-material-registration-login-example:build"
           }
         },
         "test": {
@@ -115,7 +115,7 @@
         }
       }
     },
-    "angular-7-material-registration-login-example-e2e": {
+    "angular-9-material-registration-login-example-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -124,11 +124,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-7-material-registration-login-example:serve"
+            "devServerTarget": "angular-9-material-registration-login-example:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-7-material-registration-login-example:serve:production"
+              "devServerTarget": "angular-9-material-registration-login-example:serve:production"
             }
           }
         },
@@ -144,5 +144,5 @@
       }
     }
   },
-  "defaultProject": "angular-7-material-registration-login-example"
+  "defaultProject": "angular-9-material-registration-login-example"
 }

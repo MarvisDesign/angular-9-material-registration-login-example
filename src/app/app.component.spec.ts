@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-7-material-registration-login-example'`, () => {
+  it(`should have as title 'angular-9-material-registration-login-example'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('angular-7-material-registration-login-example');
+    expect(app.title).toEqual('angular-9-material-registration-login-example');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to angular-7-material-registration-login-example!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to angular-9-material-registration-login-example!');
   });
 });

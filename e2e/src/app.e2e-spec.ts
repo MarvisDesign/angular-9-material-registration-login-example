@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to angular-7-material-registration-login-example!');
+    expect(page.getTitleText()).toEqual('Welcome to angular-9-material-registration-login-example!');
   });
 
   afterEach(async () => {
